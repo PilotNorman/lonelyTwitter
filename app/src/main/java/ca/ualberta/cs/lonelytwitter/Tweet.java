@@ -1,5 +1,6 @@
 package ca.ualberta.cs.lonelytwitter;
 
+import java.security.PublicKey;
 import java.util.Date;
 /**
  * Created by yipeng6 on 1/19/17.
@@ -41,4 +42,9 @@ public abstract class Tweet implements Tweetable{
     }
 
     public abstract Boolean isImportant();
+
+    @Override
+    public String toString() {
+        return date.toString() + "|" + message;
+    }
 }

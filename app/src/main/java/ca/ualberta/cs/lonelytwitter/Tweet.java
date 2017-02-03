@@ -4,6 +4,15 @@ import java.security.PublicKey;
 import java.util.Date;
 /**
  * Created by yipeng6 on 1/19/17.
+ * A tweet class is a abstract class which define how does
+ * a tweet looks like.
+ *<ul>
+ *    <li>date</li>
+ *    <li>message</li>
+ *</ul>
+ * @author yipengzhou
+ * @version 1.4.2
+ * @since 1.0
  */
 
 
